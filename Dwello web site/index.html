@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dwello</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__navigation">
+          <a href="#">
+            <svg
+              width="93"
+              height="29"
+              viewBox="0 0 93 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_4)">
+                <path
+                  d="M6.20173 27.5217V10.7217H14.1457C16.0017 10.7217 17.6337 11.0657 19.0417 11.7537C20.4497 12.4417 21.5457 13.4097 22.3297 14.6577C23.1297 15.9057 23.5297 17.3937 23.5297 19.1217C23.5297 20.8337 23.1297 22.3217 22.3297 23.5857C21.5457 24.8337 20.4497 25.8017 19.0417 26.4897C17.6337 27.1777 16.0017 27.5217 14.1457 27.5217H6.20173ZM10.9537 23.7297H13.9537C14.9137 23.7297 15.7457 23.5537 16.4497 23.2017C17.1697 22.8337 17.7297 22.3057 18.1297 21.6177C18.5297 20.9137 18.7297 20.0817 18.7297 19.1217C18.7297 18.1457 18.5297 17.3137 18.1297 16.6257C17.7297 15.9377 17.1697 15.4177 16.4497 15.0657C15.7457 14.6977 14.9137 14.5137 13.9537 14.5137H10.9537V23.7297ZM28.9099 27.5217L24.2779 14.5137H28.5979L32.2699 25.3857H30.2059L34.0219 14.5137H37.9099L41.5819 25.3857H39.5659L43.3579 14.5137H47.3659L42.7339 27.5217H38.3179L35.1979 18.5217H36.5419L33.3259 27.5217H28.9099ZM55.2236 27.7377C53.6876 27.7377 52.3436 27.4497 51.1916 26.8737C50.0556 26.2817 49.1676 25.4817 48.5276 24.4737C47.9036 23.4497 47.5916 22.2897 47.5916 20.9937C47.5916 19.6977 47.8956 18.5457 48.5036 17.5377C49.1276 16.5137 49.9836 15.7217 51.0716 15.1617C52.1596 14.5857 53.3836 14.2977 54.7436 14.2977C56.0236 14.2977 57.1916 14.5617 58.2476 15.0897C59.3036 15.6017 60.1436 16.3617 60.7676 17.3697C61.3916 18.3777 61.7036 19.6017 61.7036 21.0417C61.7036 21.2017 61.6956 21.3857 61.6796 21.5937C61.6636 21.8017 61.6476 21.9937 61.6316 22.1697H51.3356V19.7697H59.2076L57.4796 20.4417C57.4956 19.8497 57.3836 19.3377 57.1436 18.9057C56.9196 18.4737 56.5996 18.1377 56.1836 17.8977C55.7836 17.6577 55.3116 17.5377 54.7676 17.5377C54.2236 17.5377 53.7436 17.6577 53.3276 17.8977C52.9276 18.1377 52.6156 18.4817 52.3916 18.9297C52.1676 19.3617 52.0556 19.8737 52.0556 20.4657V21.1617C52.0556 21.8017 52.1836 22.3537 52.4396 22.8177C52.7116 23.2817 53.0956 23.6417 53.5916 23.8977C54.0876 24.1377 54.6796 24.2577 55.3676 24.2577C56.0076 24.2577 56.5516 24.1697 56.9996 23.9937C57.4636 23.8017 57.9196 23.5137 58.3676 23.1297L60.7676 25.6257C60.1436 26.3137 59.3756 26.8417 58.4636 27.2097C57.5516 27.5617 56.4716 27.7377 55.2236 27.7377ZM63.806 27.5217V9.71373H68.366V27.5217H63.806ZM71.3295 27.5217V9.71373H75.8895V27.5217H71.3295ZM85.3809 27.7377C83.9569 27.7377 82.6929 27.4497 81.5889 26.8737C80.4849 26.2977 79.6129 25.5057 78.9729 24.4977C78.3489 23.4737 78.0369 22.3057 78.0369 20.9937C78.0369 19.6817 78.3489 18.5217 78.9729 17.5137C79.6129 16.5057 80.4849 15.7217 81.5889 15.1617C82.6929 14.5857 83.9569 14.2977 85.3809 14.2977C86.8049 14.2977 88.0689 14.5857 89.1729 15.1617C90.2929 15.7217 91.1649 16.5057 91.7889 17.5137C92.4129 18.5217 92.7249 19.6817 92.7249 20.9937C92.7249 22.3057 92.4129 23.4737 91.7889 24.4977C91.1649 25.5057 90.2929 26.2977 89.1729 26.8737C88.0689 27.4497 86.8049 27.7377 85.3809 27.7377ZM85.3809 24.1137C85.9089 24.1137 86.3729 23.9937 86.7729 23.7537C87.1889 23.5137 87.5169 23.1617 87.7569 22.6977C87.9969 22.2177 88.1169 21.6497 88.1169 20.9937C88.1169 20.3377 87.9969 19.7857 87.7569 19.3377C87.5169 18.8737 87.1889 18.5217 86.7729 18.2817C86.3729 18.0417 85.9089 17.9217 85.3809 17.9217C84.8689 17.9217 84.4049 18.0417 83.9889 18.2817C83.5889 18.5217 83.2609 18.8737 83.0049 19.3377C82.7649 19.7857 82.6449 20.3377 82.6449 20.9937C82.6449 21.6497 82.7649 22.2177 83.0049 22.6977C83.2609 23.1617 83.5889 23.5137 83.9889 23.7537C84.4049 23.9937 84.8689 24.1137 85.3809 24.1137Z"
+                  fill="#2A1B12"
+                />
+                <line
+                  x1="1.89469"
+                  y1="28.1235"
+                  x2="1.89469"
+                  y2="7.91301"
+                  stroke="#2A1B12"
+                  stroke-width="3.78947"
+                />
+                <line
+                  y1="6.01835"
+                  x2="24"
+                  y2="6.01835"
+                  stroke="#2A1B12"
+                  stroke-width="3.78947"
+                />
+                <line
+                  y1="1.13031"
+                  x2="14.6957"
+                  y2="1.13031"
+                  stroke="#2A1B12"
+                  stroke-width="2.26087"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_4">
+                  <rect width="93" height="29" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <nav class="header__navigation--menu">
+            <ul class="header__navigation--list">
+              <li><a class="header__navigation--link" href="#">Home</a></li>
+              <li><a class="header__navigation--link" href="#">Service</a></li>
+              <li><a class="header__navigation--link" href="#">Agents</a></li>
+              <li><a class="header__navigation--link" href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="header__navigation--right">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.5601 20.4452L19.9149 17.7981C23.3906 13.1533 22.4429 6.57034 17.7981 3.09462C13.1534 -0.381104 6.57037 0.566612 3.09465 5.21139C-0.381073 9.85616 0.566643 16.4392 5.21142 19.9149C8.94248 22.7069 14.067 22.7069 17.7981 19.9149L20.4452 22.562C21.0292 23.146 21.9761 23.146 22.56 22.562C23.144 21.978 23.144 21.0312 22.56 20.4472L22.5601 20.4452ZM11.5435 19.0179C7.41545 19.0179 4.06904 15.6715 4.06904 11.5435C4.06904 7.41542 7.41545 4.06901 11.5435 4.06901C15.6716 4.06901 19.018 7.41542 19.018 11.5435C19.0136 15.6697 15.6697 19.0136 11.5435 19.0179Z"
+                fill="#2B1B12"
+              />
+            </svg>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.8315 13.8502C7.92501 14.2033 4.94884 17.5042 5.0007 21.4262V21.6251C5.0007 22.3844 5.61629 23 6.37565 23C7.13502 23 7.75061 22.3844 7.75061 21.6251V21.3712C7.70928 18.9631 9.48641 16.9095 11.8755 16.6047C14.3974 16.3546 16.6445 18.1963 16.8946 20.7182C16.9094 20.8673 16.9168 21.017 16.917 21.1668V21.6251C16.917 22.3844 17.5326 23 18.2919 23C19.0513 23 19.6669 22.3844 19.6669 21.6251V21.1667C19.6624 17.1122 16.3719 13.829 12.3174 13.8335C12.1553 13.8337 11.9933 13.8392 11.8315 13.8502Z"
+                fill="#2B1B12"
+              />
+              <path
+                d="M12.3339 11.9996C15.3713 11.9996 17.8337 9.53727 17.8337 6.49982C17.8337 3.46237 15.3713 1 12.3339 1C9.29641 1 6.83403 3.46237 6.83403 6.49982C6.83704 9.53603 9.29765 11.9966 12.3339 11.9996ZM12.3339 3.74991C13.8526 3.74991 15.0838 4.9811 15.0838 6.49982C15.0838 8.01855 13.8526 9.24973 12.3339 9.24973C10.8151 9.24973 9.58394 8.01855 9.58394 6.49982C9.58394 4.9811 10.8151 3.74991 12.3339 3.74991Z"
+                fill="#2B1B12"
+              />
+            </svg>
+            <a class="header__navigation--right-btn" href="#">Sign Up</a>
+          </div>
+        </div>
+      </div>
+      <section class="hero container">
+        <div class="hero__text">
+          <h1 class="header-primary">
+            Find Your<br />
+            Dream Home
+          </h1>
+          <p class="paragraph">
+            Explore our curated selection of exquisite<br />
+            properties meticulously tailored to your<br />
+            unique dream home vision
+          </p>
+          <a class="hero__btn u-margin-sm" href="#">Sign up</a>
+        </div>
+        <form class="cta" action="#" method="post">
+          <!-- LOCATION -->
+          <div class="cta__column">
+            <input
+              type="text"
+              name="location"
+              placeholder="Location"
+              class="cta__input"
+            />
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.3 2C7.40667 2 4 6 4 9C4 12.1414 4.95261 13.6517 6.13237 14.9283C6.50757 15.3343 6.88089 15.7681 7.26057 16.2093C7.77721 16.8096 8.30564 17.4236 8.86667 18C8.91173 18.0463 8.95783 18.0942 9.00502 18.1433C9.57938 18.7407 10.3154 19.5062 11.3 19.5C12.2846 19.5062 13.0206 18.7407 13.595 18.1433C13.6422 18.0942 13.6883 18.0463 13.7333 18C14.2944 17.4236 14.8228 16.8096 15.3394 16.2093C15.7191 15.7681 16.0924 15.3343 16.4676 14.9283C17.6474 13.6517 18.6 12.1414 18.6 9C18.6 6 15.1933 2 11.3 2ZM11.2 11.4C12.415 11.4 13.4 10.415 13.4 9.2C13.4 7.98497 12.415 7 11.2 7C9.98497 7 9 7.98497 9 9.2C9 10.415 9.98497 11.4 11.2 11.4Z"
+                fill="#695346"
+              />
+            </svg>
+          </div>
+
+          <!-- TYPE -->
+          <div class="cta__column">
+            <select name="type" class="cta__input">
+              <option value="" disabled selected hidden>Type</option>
+              <option value="house">House</option>
+              <option value="apartment">Apartment</option>
+              <option value="studio">Studio</option>
+              <option value="villa">Villa</option>
+              <option value="loft">Loft</option>
+            </select>
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 12.3332C10.4696 12.3332 9.96086 12.5439 9.58579 12.919C9.21071 13.294 9 13.8027 9 14.3332V19.0172H13V14.3332C13 13.8027 12.7893 13.294 12.4142 12.919C12.0391 12.5439 11.5304 12.3332 11 12.3332Z"
+                fill="#695346"
+              />
+              <path
+                d="M11.892 3.55545C11.6472 3.33508 11.3294 3.21313 11 3.21313C10.6706 3.21313 10.3528 3.33508 10.108 3.55545L3.66206 9.35692C3.24064 9.73621 3 10.2765 3 10.8435V16.8861C3 17.4519 3.22476 17.9945 3.62484 18.3946C4.02492 18.7947 4.56754 19.0195 5.13333 19.0195H7.66667V14.3335C7.66667 13.4494 8.01786 12.6016 8.64298 11.9764C9.2681 11.3513 10.1159 11.0001 11 11.0001C11.8841 11.0001 12.7319 11.3513 13.357 11.9764C13.9821 12.6016 14.3333 13.4494 14.3333 14.3335V19.0175H16.8667C17.4325 19.0175 17.9751 18.7927 18.3752 18.3926C18.7752 17.9925 19 17.4499 19 16.8841V10.8417C19 10.2746 18.7593 9.73419 18.3377 9.3549L11.892 3.55545Z"
+                fill="#695346"
+              />
+            </svg>
+          </div>
+
+          <!-- PRICE -->
+          <div class="cta__column">
+            <select name="price" class="cta__input">
+              <option value="" disabled selected hidden>Price Range</option>
+              <option value="0-500">$0 – $500</option>
+              <option value="500-1000">$500 – $1,000</option>
+              <option value="1000-2000">$1,000 – $2,000</option>
+              <option value="2000-3000">$2,000 – $3,000</option>
+              <option value="3000+">$3,000+</option>
+            </select>
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12.7 19.4C12.5636 19.4 12.5544 19.2031 12.6872 19.172C16.5345 18.2731 19.3999 14.8212 19.3999 10.7C19.3999 6.5788 16.5345 3.12694 12.6872 2.22801C12.5544 2.19698 12.5636 2 12.7 2C17.5049 2 21.3999 5.89511 21.3999 10.7C21.3999 15.5049 17.5049 19.4 12.7 19.4Z"
+                fill="#695346"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8.7 19.4C13.5049 19.4 17.4 15.5049 17.4 10.7C17.4 5.89512 13.5049 2 8.7 2C3.89512 2 0 5.89512 0 10.7C0 15.5049 3.89512 19.4 8.7 19.4ZM9.68615 4.47692C9.68615 4.21353 9.47263 4 9.20923 4C8.94583 4 8.73231 4.21353 8.73231 4.47692V5.48825C8.34428 5.53257 7.99351 5.64059 7.68 5.81231C7.25744 6.03914 6.92718 6.36318 6.68923 6.78443C6.45538 7.20105 6.33846 7.69406 6.33846 8.26344C6.33846 8.85597 6.44718 9.34666 6.66462 9.73551C6.88615 10.1244 7.1959 10.4507 7.59385 10.7146C7.9918 10.9738 8.45538 11.2122 8.98462 11.4298C9.32513 11.5686 9.5959 11.7145 9.79692 11.8672C10.0021 12.02 10.1477 12.1936 10.2338 12.388C10.3241 12.5824 10.3692 12.8116 10.3692 13.0754C10.3692 13.3347 10.32 13.5661 10.2215 13.7698C10.1272 13.9689 9.98359 14.1239 9.79077 14.235C9.60205 14.3461 9.3641 14.4017 9.07692 14.4017C8.90051 14.4017 8.72615 14.3739 8.55385 14.3184C8.38154 14.2628 8.22564 14.1679 8.08615 14.0337C7.94667 13.8948 7.8359 13.7096 7.75385 13.4782C7.72387 13.3936 7.69937 13.301 7.68034 13.2004C7.61878 12.8748 7.36214 12.6033 7.03077 12.6033H6.6C6.26863 12.6033 5.99477 12.8728 6.03153 13.2021C6.07141 13.5594 6.1491 13.8759 6.26462 14.1517C6.44103 14.5683 6.67692 14.9039 6.97231 15.1585C7.27179 15.4085 7.6041 15.5891 7.96923 15.7002C8.18523 15.7659 8.40267 15.8122 8.62154 15.839V16.7262C8.62154 16.9879 8.83369 17.2 9.09538 17.2C9.35708 17.2 9.56923 16.9879 9.56923 16.7262V15.8389C9.95186 15.7939 10.2985 15.6944 10.6092 15.5405C11.0482 15.3229 11.3887 15.0058 11.6308 14.5892C11.8769 14.1725 12 13.6633 12 13.0615C12 12.4736 11.8913 11.9876 11.6738 11.6034C11.4564 11.2191 11.1508 10.8951 10.7569 10.6312C10.3631 10.3628 9.89949 10.1174 9.36615 9.89521C9.00923 9.73782 8.7282 9.58275 8.52308 9.42998C8.32205 9.27722 8.17846 9.10826 8.09231 8.92309C8.01026 8.7333 7.96923 8.51341 7.96923 8.26344C7.96923 8.00421 8.00821 7.77507 8.08615 7.57601C8.16821 7.37696 8.29538 7.21957 8.46769 7.10384C8.6441 6.98811 8.86769 6.93025 9.13846 6.93025C9.32718 6.93025 9.49538 6.96959 9.64308 7.04829C9.79487 7.12699 9.9241 7.24503 10.0308 7.40242C10.1374 7.55518 10.2195 7.74266 10.2769 7.96486C10.2908 8.01852 10.303 8.07408 10.3135 8.13152C10.3732 8.45747 10.6317 8.72867 10.9631 8.72867H11.3877C11.7191 8.72867 11.9928 8.45907 11.9547 8.12989C11.9221 7.84827 11.8654 7.58726 11.7846 7.34687C11.6533 6.93951 11.4626 6.59695 11.2123 6.3192C10.9662 6.04145 10.6687 5.83083 10.32 5.68732C10.1234 5.60282 9.91212 5.54241 9.68615 5.50612V4.47692Z"
+                fill="#695346"
+              />
+            </svg>
+          </div>
+
+          <button type="submit" class="cta__btn">Sign up</button>
+        </form>
+      </section>
+    </header>
+    <section class="dream-home container">
+      <div class="dream-home__img">
+        <img
+          src="Immagini/luxury_and_rich_home_exterior_side_view.png"
+          alt=""
+        />
+      </div>
+      <div class="dream-home__text">
+        <h2 class="heading-secondary">
+          We Help You To Find<br />
+          Your Dream Home
+        </h2>
+        <p class="paragraph u-margin-bottom-sm">
+          From cozy cottages to luxurious estates, our dedicated team guides you
+          through every step of the journey, ensuring your dream home becomes a
+          reality
+        </p>
+        <div class="dream-home__range">
+          <div class="dream-home__range-1">
+            <h3 class="heading-tertiary">8K+</h3>
+            <p class="paragraph">Houses available</p>
+          </div>
+          <div class="dream-home__range-2">
+            <h3 class="heading-tertiary">6K+</h3>
+            <p class="paragraph">Houses sold</p>
+          </div>
+          <div class="dream-home__range-3">
+            <h3 class="heading-tertiary">2K+</h3>
+            <p class="paragraph">Trusted agents</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="choose-us container">
+      <div class="choose-us__text">
+        <h2 class="heading-secondary text-align">Why Choose Us</h2>
+        <p class="paragraph text-align u-margin-bottom-n">
+          Elevating Your Home Buying Experience with Expertise, Integrity,<br />
+          and Unmatched Personalized Service
+        </p>
+      </div>
+      <div class="choose-us__colomn">
+        <div class="choose-us__column-1">
+          <div class="svg-wrapper">
+            <svg
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path d="M52 0H0V52H52V0Z" fill="url(#pattern0_1_76)" />
+              <defs>
+                <pattern
+                  id="pattern0_1_76"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_76" transform="scale(0.0104167)" />
+                </pattern>
+                <image
+                  id="image0_1_76"
+                  width="96"
+                  height="96"
+                  preserveAspectRatio="none"
+                  xlink:href="data:image/png;base64,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"
+                />
+              </defs>
+            </svg>
+          </div>
+
+          <p class="choose-us__column-1--subheading">Expert Guidance</p>
+          <p class="choose-us__column-1--paragraph">
+            Benefit from our team's seasoned expertise for a smooth buying
+            experience
+          </p>
+        </div>
+        <div class="choose-us__column-1">
+          <div class="svg-wrapper">
+            <svg
+              class="choose-us__column-1--icon"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g clip-path="url(#clip0_1_81)">
+                <mask
+                  id="mask0_1_81"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="52"
+                  height="52"
+                >
+                  <path d="M52 0H0V52H52V0Z" fill="white" />
+                </mask>
+                <g mask="url(#mask0_1_81)">
+                  <path d="M52 -2H-2V52H52V-2Z" fill="url(#pattern0_1_81)" />
+                </g>
+              </g>
+              <defs>
+                <pattern
+                  id="pattern0_1_81"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_81" transform="scale(0.0104167)" />
+                </pattern>
+                <clipPath id="clip0_1_81">
+                  <rect width="52" height="52" fill="white" />
+                </clipPath>
+                <image
+                  id="image0_1_81"
+                  width="96"
+                  height="96"
+                  preserveAspectRatio="none"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE0ElEQVR4nO2c22tcVRSHt/VSL7GTtSaTOGudNFiHNrPWpF6iqMUb+C8kpUV89sEnQRD0wVJv/Qustr6J4AV8EnzzgtRLEURFX6QPEQRtsdQmxTSglT2dtGmTmJMzZ84+l/XBhtAOyTnfb5+19z5nn3HOMAzDMAzDMAzDMAzDMHLGrnr9VmnCfiE8KgTHhfGkEC51G+NJJfhGCY8owT7/2dDHWxomt480hfGwMJxTxgtxmv9sN6io0Qp9/IXlgSi6SRkOCsNCXPGrgiBcUsJDrZbbGvp8CoVEjZYQ/pBU/OorAo91RkfHQp9XIRCq3SUMf6Qlf0UIv05G0Al9fvnv+Zy+/BVtzq6EdZiYmLhRGb8boPzlK+FLGxPWQBkODlr+pUb42kAv5WJONWEhwwDO6/i2O0Kfd24QxsOZyb8cwpHQ550LWojbNrPISm8sgAVpNIZc1ZEm7M+89/dam2CvqzpCeDRUAEr4pqs6QnA8XADwlas6yngqVAB+0eeqjvopYbgStOiqjloAgQNgK0FBERuEw6L+MWK4MeANV3WUYF+4WRDOuqojjcaQMswHmILarYigq2FbBV+m9wx4KUP5i7vHarevOARDCQ9lVn4IXjHjVzE97a5Xws8HX/vxmD2SXIfO6OiY370wwADsofxGTEbQGVAIc+1xUCs9MdjZHBoRws/SLDu2HWWTtFpuq9+90NfNOsLzfsAVcTdYz0/I1PbaDn+7YnO7JmDez/NtqpnyirlNsNffv1GCr7s76PzV4Xt592f/b34XNc7uHhu7xXq8YRiGYRiGYRiGYRiGYcRkansN2oz3K9efFIaXhfE9IfhUGL4VwhPdLY2Ei771vjfixMX/g0+6n2V4SaLhJzSq3ze9A2omfoNXVNvN4YeV8AUl/HgQ+0WF4Xch/EgYnlOCPZV+RjDr3LXtaPgRJXhVGb/o9uQBP4xfI5Bz/mpRhgMdggedc1tcydnSpvrjwvBW9+tlMhauGz49g9+E8XVpwkPOuWtcWbgzQu69hD0XXDLHDuMXZXy+37FDGJ8RwtNK+GNnvH6vy5I21e5Wwncy3fHGaTf4abrZvDnJ+fvSdkXJIzzjJxUumy/cwHeV8d/wArHv5mdS/crPJAS/i6E7XSx0j8fV0hieSkP+QEOYbI7cIww/h5alacsnPC0TjdviehDGmZi/N70Q/E6FEF81oANvMN+bEcXmUeeu65XfWCH0PTAL1Z8uS63XPuUnCcHPjpLL98t8xn+qLl8YZ7z0RCEQ/plI/iSN7FSCv6suX3sDrpedJAS/TkgUQBb7+LUg8lfI3GQIcCChfNgTXham2i7uO60/llT+pUbwwdUh+PteQvj2FX+P8MVE8oO/18v56/mrw9zoSkjY85cRwu/DS8Ncyo8Rwkxf8nsBnAkvDvNTdtZra5SjVAgtTosgf5AhhJanOS0764edQtkpSwCSVc9PY7ZTtgCkDPKLGoCURX4RA5Ayye8d4NnQUjWnA27fi6w4CMGH4cViNeV7pqi+y99GDS8Y/6/NTTVHpksnf5kpxkgZ31eGv3Ig+0JPwln/rrASPLuZ94QLJ79MaN4H3DKjJt/kVxK1nh86ALSaX8QAxAbcdDD5gVHr+cUJQKzspI/JD4xaz893AJJx2fkP4eWD9q+9dPkAAAAASUVORK5CYII="
+                />
+              </defs>
+            </svg>
+          </div>
+
+          <p class="choose-us__column-1--subheading">Personalized Service</p>
+          <p class="choose-us__column-1--paragraph">
+            Our services adapt to your unique needs, making your journey
+            stress-free
+          </p>
+        </div>
+        <div class="choose-us__column-1">
+          <div class="svg-wrapper">
+            <svg
+              class="choose-us__column-1--icon"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g clip-path="url(#clip0_1_91)">
+                <mask
+                  id="mask0_1_91"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="52"
+                  height="52"
+                >
+                  <path d="M52 0H0V52H52V0Z" fill="white" />
+                </mask>
+                <g mask="url(#mask0_1_91)">
+                  <path d="M55 -1H-3V57H55V-1Z" fill="url(#pattern0_1_91)" />
+                </g>
+              </g>
+              <defs>
+                <pattern
+                  id="pattern0_1_91"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use xlink:href="#image0_1_91" transform="scale(0.0104167)" />
+                </pattern>
+                <clipPath id="clip0_1_91">
+                  <rect width="52" height="52" fill="white" />
+                </clipPath>
+                <image
+                  id="image0_1_91"
+                  width="96"
+                  height="96"
+                  preserveAspectRatio="none"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADfUlEQVR4nO1d3WpTQRA+V/Wm1s6kf9lJK0ixdSdRwdewiBQfQfAB9DEsWqrinfgMojfqS6hQvGzvRFDbKiKWyCYtFEmsek529my/D+YmhHa+79uZ2ZzknC0KAAAAAKgBluYbTh3d8Y6feeEtL/S1H7wVXlNHt5cXpprWeWaH5YWppnf01Dv+ocLdP0X/PfTEn52es847C1xoNq55x5+PE36AEZ/UTa5Y519rtB3dUuH9fxX/SOx7oZvWPGoJdZMrXvhnCfH7lRD+hpu8as2nVjjfHJ/ywh/Kin8kPl6cnZ2x5lUbqOPHFYp/WAmPrHnVApfnxqe9o29VG6COv7dnZmaL3NBpUcc7uq+O33qhvcqFk4GreUuFV5cajdMh2i2+7oU24/xv2utxdXRvuUVtM+EXF4tTXvhhyV1K93/E960J/j2f8Jp3tB0zl/4uix94X4zFF9/R68hkuwexOiwvL3zDJCdHr6KaEAaakfjd0HKG5bXIPGGVlwptROv5sduO/qUBV87RGau8wueNC/OkIzcgDB+7VcbdMHCH5Rbak2Vu6mht5Aao0DtLkl5oc9gQVkfvbQ3gNzEM2DElKeFCG22HgRt6/kHfXzUXvxe0E8EAa5KcdMAAgQHmq1BRAfZCKFqQvRhqEJgBAgPMV6GiAuyFULSgwSKE3+9carEUiaEj3FLHz7OfAYFokSjU0Xz2BhSJQ1Pnl3yCufNLPsHc+SWfYO78yiaIIWxsQNjqpWiChh2Q4xfZV0DuUcAAhgHWq1BRAfZCKFqQvRhqEJgBAgPMV6GiAuyFULSgtL4P6FR0vb/2M8DyU7BWcL2/9gaMPMFjAAOMoagAGFAKaEFc7xmAIXxCvw/Qiq73m28yRk1Aax4wQGCA+SpUVIC9EIoWZC+GGgRmgMAA81WoqAB7IRQtaLAIuD+gJMqurBR/FXcI3B+QALLfBRWJQ1Pnl3yCufNLPsHc+WEIc70NwP0B1gZkHsWoYU1QEw8YIDDAfBUqKsBeCEULshdDDQIzQGCA+SrUvCuAdq1JarJBX7J/dLGmHDEeXWz98G5NO+6O3IBwbEcVx0vlFj7W4+sDwrEd1oQ1tXC0HkX8ngG+GAvHdpiTllSCXkY/R6ZngtDGSW5HvndKH61HF/8oQt8LJ0eEHcDJ2KLSbo+ro7VoPR8AAAAAAAAAAAAAAAAocsAviuK+BCN3TWYAAAAASUVORK5CYII="
+                />
+              </defs>
+            </svg>
+          </div>
+
+          <p class="choose-us__column-1--subheading">Transparent Process</p>
+          <p class="choose-us__column-1--paragraph">
+            Stay informed with our clear and honest approach to buying your home
+          </p>
+        </div>
+        <div class="choose-us__column-1">
+          <div class="svg-wrapper">
+            <svg
+              class="choose-us__column-1--icon"
+              width="52"
+              height="52"
+              viewBox="0 0 52 52"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g clip-path="url(#clip0_1_101)">
+                <mask
+                  id="mask0_1_101"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="52"
+                  height="52"
+                >
+                  <path d="M52 0H0V52H52V0Z" fill="white" />
+                </mask>
+                <g mask="url(#mask0_1_101)">
+                  <path
+                    d="M62.8846 23.9191L24 -10L-9.91915 28.8846L28.9654 62.8037L62.8846 23.9191Z"
+                    fill="url(#pattern0_1_101)"
+                  />
+                </g>
+              </g>
+              <defs>
+                <pattern
+                  id="pattern0_1_101"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                  height="1"
+                >
+                  <use
+                    xlink:href="#image0_1_101"
+                    transform="scale(0.0104167)"
+                  />
+                </pattern>
+                <clipPath id="clip0_1_101">
+                  <rect width="52" height="52" fill="white" />
+                </clipPath>
+                <image
+                  id="image0_1_101"
+                  width="96"
+                  height="96"
+                  preserveAspectRatio="none"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGDUlEQVR4nO2daYhcRRDHK4kixGR3qmY3m1c1u/FYzUz17Ca4ihGUoCjeIGIUQf2oeB8o+kGjIHjigYIXHqCgBqMgEtRPBhUVRASNB174wcSLaNb9kJhks9Iz62aS7O4cO/O633v9g/o2M6/7X/3qVXdXvwEIBAKBQCAQCAQCgQxQ5J6jVWidYfzeCP1sBJ83/V1Hum5XJihF+fOM4D9GaGIfY9pqJLfCdfvSzDwVvNUIjR8g/pQTcEtpaW6Z64amDu3tXaSM62cUvsZU8GstdJHrNqcGw9hvBD9rRPyaO+GTkSha6LrtiacU5U5Swd+bEn/K8M01AAtc9yGxqODlyrSzNfH/D0f0pOt+JI7BQThEBZ+di/D7haObXfcpEawGOEglf4oKfdQ28au2RyO82HX/vGQkihYazp1rmJ5uPdY3EIqYdpYjOs11f71g5dJFvUboMhV6yzDt6JTo0zyUR5W7V0IWKfWjsZMoFfrQhoT4RD/gebA5ExO1NQALNMITDdN9KvitM8GnvxO+GhroRkgh88uCZyvTS9V1GddCz/pM2GizLUgLRuh8w/ida2GbcoLQOjtoIOlZjAq94lrMlo3xYUgqK5Z15wzjx85FnPudcCMk8SFrmDa4Fq9NtqcsuUsgSWiBrvVAuIm2GdOOciG3GhK0MeJZakltMBxNxI6aTTXdi0UdMWX8RSMcAJ9RpndcC2U6aUybvJ2olaTnqFn3ZCUd5u1EzQg+7locE5cThF71aqK2PJ9fXH1QuRfHxOeEB8EXjND1rgUxbuwG8ICUpp7UiI2r0AVO1S8JnuWBEBPOjHF7UWiVMwcYprdbbPhFnW7bcF/foTY7s/sPyvmrK21l3N5uJ9iCLxsJIG6GOL+8pV0spk2usgjrFBu7273PvLyv+7DEpJ4lxgvBMVVH4F0qtLsdDigznhBrBwaJuqatRPZ49E9HtdxljncD0792CR7ixEj+0tbiJa0BL2tM7VmClp3wkItGP9bCSPnSp9FfSznKF1var2Z8bWQEDo69wbZgKg2jvxa77t/MepYKPuesyFcZb2pKfKYvfB39tRimZ5oIO/McNhT7m6le0wKeEf9yNo5ZxyvjI3Y+0Ei/irw4b4T+rDOY7gAfUKa1jY1+fLTeb9k0rr3iHxD+dttiMFvoW7dfgnfP8Dt77JZr2wSsJ4g9cVjnY/NU6IGZJmPKtFOZ7mwk9Kjgu510QM1geL1e3LanKvfvkwrtsnWrEAfV0WgLVmltI58vRj3H2AMPRuhzZfrRlqSo0P1a6B1s5PuVUsUYxK8ZGHZQzIoRen/qO0w77AlMiFP8yQtvtTGxw5ecr4yfxumAynoQY/9sjTJM91Y/j2MlplMhdvH33npPdPKaGtE1sYrf4IPUHtxQpr9iW+mcTvxJB+xuJINphaLQqnjPAezjgI2ztW24r/vwsuSGwaX4ew3HTCF/XFuvKblhFfzNhfiTYehX8IH64k/dCX/Yhat2XNNI/mR7ezsTfzKrgaSIX2PjNkduJJee+dwX3uNL+QokTPza0fOTnZDYNfVGrqWFLqps3DNucS26Fw6Yi/j7OILpb2V8w4prUzUb14cGuo+wdZSmgKer4G3xH7jz3AHtEj8NBrGLv2RJX72FpiwZxI1hut11p03GHZCWkysTiXSAMr7nutMmyw7Yu8AUzLhwwIoCiU0dgwPIjQMsdmGtXcVISTdwhWG8xXXnTZYd0OTuf2oNXGKLibKeFYFr7HajMv3gWgiTVQdYdCmpMm1zLYbJqgOynBmBT2QxMwLfyFpmBL6RrcwIR8FHspIZqeA34CtDBRxq6fhRkoxpA/hMSfDMVGdGjFeC76Q1M1KhXUNCBUgCqcyMmJ6CpGDfjWOEPnAumrTLcLQ40BNBkkhRZjRu38gOSSQFmdF4bMeLOkXlff6e1HWapgxHDefOgTSQsMxoXBlfTFzMr4cRfMHTkT5mZ7iV+ifOXZWYVLNTa0bKtK0kdLzr9qaSepmRBvE7T+VtVPZY6v4OYNxc7s8fG0MTAtX/CcAr7MPOCL1cFrrOvksIAoFAIBAIBAKBQACyx39ovYFhefMCTgAAAABJRU5ErkJggg=="
+                />
+              </defs>
+            </svg>
+          </div>
+
+          <p class="choose-us__column-1--subheading">Exceptional Support</p>
+          <p class="choose-us__column-1--paragraph">
+            Providing peace of mind with our responsive and attentive customer
+            service
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESIDENCES CARDS -->
+
+    <section class="container">
+      <h2 class="heading-secondary text-align">Our Popular Residences</h2>
+
+      <div class="content-card">
+        <div class="card">
+          <div class="card__img">
+            <img
+              src="Immagini/Group 11.png"
+              alt="Residence in San Francisco, California con piscina"
+            />
+          </div>
+          <div class="card__text">
+            <div class="card__text--address">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="24" height="24" fill="url(#pattern0_1_113)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_113"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_113"
+                      transform="translate(-0.0833333 -0.0833333) scale(0.0121528)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_113"
+                    width="96"
+                    height="96"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+              <p class="card__text--address-city">San Francisco, California</p>
+            </div>
+            <div class="card__text--room">
+              <div class="card__text--room-square">
+                <div class="card__svg-wrapper">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect width="24" height="24" fill="url(#pattern0_1_118)" />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_118"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_118"
+                          transform="scale(0.0104167)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_118"
+                        width="96"
+                        height="96"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEAElEQVR4nO2cz2sUMRTHU4VWbyKoqIWCzuaNi6CyybbFQ09KpZ1kCg6CUhVB70JB1EIrvRSkoAcRqseC/gPqwYOgrRcRaQURf+K5osda2rKSbkWok93uurNJZt4H3qWUmffeN/uSmbwMIQiCIAiCIAiCIAiCIAiCIAiCIAiCIOlhoHvfzpD7/SHzL0lOr9hgyhflU3TY20HSSBSRzZLDeclhWnBYkRxKNppgsCw4vAi4f26EkE0kDQQFelRw+tZ0cmWtYnA6F3K/m7iM4HBGMlgwnUxZvwiLgsEF4iLqZ2w6gbJhQuQuEgfLzqLpxMnG2S9nypGacKvVfMHhk2QwKRiMW2L3BIfPFUVgMOvExLy22tEFMi8KcJIQ0kLso0UUIRKMftcOnGLuLLEdtdTUJb+v80COWE7IfaoTQTB4Tmx/yNKt89dGvhNIRk9pBFi2+mFNPU3qar6lZUdHi2TwRVOG+oitlF8vxE5gk8QxBIP7zi1JBYfheAHoGHEMyeiY5tc8TGxFchjVTMCjxDGki7E46XSaYnHS6TTF4qTTaYrFSafTFEu9TodF/7hkMFRt12qg4O+u5oP6n6q7bQyG1D2TiMUo9TgtGZ2q8O5o/XL2Rz+jXHetsJArCg4/a7jeVCNjMU6tTodq5G80WX9tWnd/welMrdcLCv6xRsRiBRWcfhpXCgSHR7UmrLzPEF9a6tmDKPsQdz3ls0MCBEfynuD0WR0juuSSqRjDgref2EJPT8cWyWBCMrpkOjmyWcbokuD0Zq/ntRlNftB5cJfk9LXxhHBjQrwy9no66spvl5y+N54EbtYEg3fyUMc2E+/Ln5gOXlpiaiJv6n6HZHSwolMMFlZXFwwmLNhwH/8fW42Bw2PVGVFFiNNNbDOk3yo48mAjT6yuIY7AHsHhob4U0a9N6ZrQbTuWjd4iKUcyelsXf8joiWY4cFdTdmbVr4OknKjc9zSnmQvuJO6ASnS8AHSQZIRA03YpGLxJ/Oa6npm+rtxekhEGil67pgzNJ35zXd9PFsrPuvMOcSVohSSNbgIiGUOaygMKUAYFMAwKYBgUwDAogGFQAMOgAIZBAQyDAhgGBTAMCmAYFMAwKIBhrBMgyudbSUbo9bw26wSQDK5lQYQon28VHK7bJwBaqSkCqNPimGzQtKbAcvICqC+d4GgvaRoTPiQugORwAwUAXXPWSOICRF3tWwWjL1EEWLchT2dUbhIX4I8I5dMw9GOW5wSxGrvKAR1pWvJTcZYqTTFa7VwWYrTauSzEaLVzWYgxYP7VOOfU30lKCGyOUR10ruUAtIsEtsf4z+cGKnwCwFWk7TGq0SAK9LI1oyIBshAjgiAIgiAIgiAIgiAIgpC08htnM50XC6u5IgAAAABJRU5ErkJggg=="
+                      />
+                    </defs>
+                  </svg>
+                </div>
+                <span class="card__text--room-text">4 Rooms</span>
+              </div>
+              <div class="card__text--room-square">
+                <div class="card__svg-wrapper">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect width="24" height="24" fill="url(#pattern0_1_123)" />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_123"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_123"
+                          transform="translate(-0.0833333 -0.0833333) scale(0.0121528)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_123"
+                        width="96"
+                        height="96"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,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"
+                      />
+                    </defs>
+                  </svg>
+                </div>
+
+                <span class="card__text--room-text">3,500 sq ft</span>
+              </div>
+            </div>
+            <div class="card__text--cta">
+              <a class="card__text--cta-btn" href="#">Sign up</a>
+              <span class="card__text--cta-price">$2,500,000</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img
+              src="Immagini/Group 11 (1).png"
+              alt="Residence Beverly Hills, California con piscina"
+            />
+          </div>
+          <div class="card__text">
+            <div class="card__text--address">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="24" height="24" fill="url(#pattern0_1_113)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_113"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_113"
+                      transform="translate(-0.0833333 -0.0833333) scale(0.0121528)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_113"
+                    width="96"
+                    height="96"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFsUlEQVR4nO2dW2icVRCAR6sVNHZ3ZhOSndlUq7HZPWc3RiJeKFgUQURQVKrW+uKrPig2KqL4IFL6JCKiSFEEEexFvBSLEBGfROutL1JEvNRLfaiJWrSaYLIyu9EXo9lk/3P5//0/GFiWsp3LOf9/Zs6cE4CcnJycnJycnJycnJzIMJWBkboUbzOCj1rGvYbpkGH6wjDNWKZZFf28+N0hK7RH/62pFLfZ4XXnhtY/dYyMwGlW6EYr+LwR+sYKNbuUI/pbVugG/e3Q9kVLjQsXGKGnWiO7e6cvLUzT7f+jMB7a3miwZdxkhPZboQVnjl9ScKrOeCn0Kvp8tkxv+HX6v0WDPzZY2AC9gjGw1jA9bBhPhHb+P0FQXZgeUt0gy5gyrjdC74Z2uP3vQHzQWF84B7JIvULXG6afQjvZLhsEmqmVS9dBljBcutMKzYd2ru1cFgzjPZAFjOD9ETi0uSph2glpppW9hnaidCv4CKQRy8U7wjuPkpK7IW0v3JQ985vLyLzh0rWQlqWmpvwROK2ZpOgKLvqEbWICTo15nW+7DgIejDpZ0ww3tJOsa2F6EOKt7eDvwR0kzmfBiSiz5RgKa9ZXEIReh5ioCl0S2inWt5RxE8SCZToQ3CHifRbsh1h2svxvplAMshDFzpoRejoCZzTDCD4Z1vkG1lqhH8M7gsII03TQjf5290IEjpBwomWXgAFotXv4HHGzRuglU8atDS6Njg0OnqGin/U7I7S71SvkUScj+GywACTUt9PsyFDGfZ0kQJoQGsaXPQbhKwjVseZnhNGfhnH7SvWzjJO+KrJBMmNtF/Q08revVkfLeK8XHSt4K2Rxt8sw7utWTyv4SiZ3zbRR1qlRTLNJNNdqDd/1i1kXBuAbK/RJWoyyQnscz4CPktJ1JUZ97XYG4C1J6dpqVXc7WL4E37jedqxJ/3lJ6ap5gtsZQMfAN86fqwMDfUnpqr/ldrbSH0np2rlRTHNpCcAI0TrHAZgF37ju86xy/8akdK2XS1XHAZgG3xjG75zOgDJuTVHSeAR8YwQ/dBoAod1pyVm0XSUpXaNZWxumOa03daun1mmymYgx7XQ8rZta1exaT8FXXetpGXeAb7QA5dwwaRk3GX1rPOPN4JtWjcWHcULzWtVcqX62jPf5KkdrP6wbLy9nJONRT0FoalWzk3dCe5/Cw2Pnb+czfguhsILP+QsAtV7MrasIKsVturbXZE2l9VnrPe2rDOY867QrWADqgtf4NNZGKDXBq4MFQFsyDNPPoZ1gA4naHvz+Ccv4RO8GAB+H0GjZuFdbExtcGoUYMExvRuCQpldhOgCxUB8uXdhjs2ChJnQxxIR2MPTO6Me9EBuaAMV0A4p1JGpjEkVCJyym/1kf/ZMQK5sBTtHaeIZH/0G1EWKmNlQ8S7sEsud8monydORS1Jiu1Kba0E6zycl80JLDaljsTm5mQjji5/7/YRkfC+486U70DBykmJMM0wuhnWhXLfjaFoA1kGbaB/nwrfDOpJUJ43sT5fLpkAW0M23xXue0OP/z8aG+AcgS51dI2vc4R+/8o6ODhbMhi9SG0Tq9G1q6FTyuJ/8hy9QqxctivNbG6F5yBa+CXqDGeFNkd8otGKbboZewQndFM/qFHoBexDLusL1+4UYEidquYM5nehEAToZeZgvAGudHXpce+VNR34AYIFue8jfy8f0kj0BlgpH2Oa6PPYz8T6t8Zim0vVEyPtQ3YAU/c9lIqxtGoe2MGtu+f/R7B4+dH6JppIqdKvdvVIclGIBj1QrWQ9uVKhoVbCRxH50ep22U+ydC25NKDBfGuyve4S+mQheFtiPVVFu38uLxFY98wd+08Bda/wxVUKnzy0GYpuuV4ubQemeKscHCBsP0TgdLzbej/0MLacZI6QrL9IwRPGwEf12Uw/qdldLlofXLycnJycnJycnJycmBZfgL6NMMqXgGxYwAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+              <p class="card__text--address-city">Beverly Hills, California</p>
+            </div>
+            <div class="card__text--room">
+              <div class="card__text--room-square">
+                <div class="card__svg-wrapper">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect width="24" height="24" fill="url(#pattern0_1_118)" />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_118"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_118"
+                          transform="scale(0.0104167)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_118"
+                        width="96"
+                        height="96"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEAElEQVR4nO2cz2sUMRTHU4VWbyKoqIWCzuaNi6CyybbFQ09KpZ1kCg6CUhVB70JB1EIrvRSkoAcRqseC/gPqwYOgrRcRaQURf+K5osda2rKSbkWok93uurNJZt4H3qWUmffeN/uSmbwMIQiCIAiCIAiCIAiCIAiCIAiCIAiCIOlhoHvfzpD7/SHzL0lOr9hgyhflU3TY20HSSBSRzZLDeclhWnBYkRxKNppgsCw4vAi4f26EkE0kDQQFelRw+tZ0cmWtYnA6F3K/m7iM4HBGMlgwnUxZvwiLgsEF4iLqZ2w6gbJhQuQuEgfLzqLpxMnG2S9nypGacKvVfMHhk2QwKRiMW2L3BIfPFUVgMOvExLy22tEFMi8KcJIQ0kLso0UUIRKMftcOnGLuLLEdtdTUJb+v80COWE7IfaoTQTB4Tmx/yNKt89dGvhNIRk9pBFi2+mFNPU3qar6lZUdHi2TwRVOG+oitlF8vxE5gk8QxBIP7zi1JBYfheAHoGHEMyeiY5tc8TGxFchjVTMCjxDGki7E46XSaYnHS6TTF4qTTaYrFSafTFEu9TodF/7hkMFRt12qg4O+u5oP6n6q7bQyG1D2TiMUo9TgtGZ2q8O5o/XL2Rz+jXHetsJArCg4/a7jeVCNjMU6tTodq5G80WX9tWnd/welMrdcLCv6xRsRiBRWcfhpXCgSHR7UmrLzPEF9a6tmDKPsQdz3ls0MCBEfynuD0WR0juuSSqRjDgref2EJPT8cWyWBCMrpkOjmyWcbokuD0Zq/ntRlNftB5cJfk9LXxhHBjQrwy9no66spvl5y+N54EbtYEg3fyUMc2E+/Ln5gOXlpiaiJv6n6HZHSwolMMFlZXFwwmLNhwH/8fW42Bw2PVGVFFiNNNbDOk3yo48mAjT6yuIY7AHsHhob4U0a9N6ZrQbTuWjd4iKUcyelsXf8joiWY4cFdTdmbVr4OknKjc9zSnmQvuJO6ASnS8AHSQZIRA03YpGLxJ/Oa6npm+rtxekhEGil67pgzNJ35zXd9PFsrPuvMOcSVohSSNbgIiGUOaygMKUAYFMAwKYBgUwDAogGFQAMOgAIZBAQyDAhgGBTAMCmAYFMAwKIBhrBMgyudbSUbo9bw26wSQDK5lQYQon28VHK7bJwBaqSkCqNPimGzQtKbAcvICqC+d4GgvaRoTPiQugORwAwUAXXPWSOICRF3tWwWjL1EEWLchT2dUbhIX4I8I5dMw9GOW5wSxGrvKAR1pWvJTcZYqTTFa7VwWYrTauSzEaLVzWYgxYP7VOOfU30lKCGyOUR10ruUAtIsEtsf4z+cGKnwCwFWk7TGq0SAK9LI1oyIBshAjgiAIgiAIgiAIgiAIgpC08htnM50XC6u5IgAAAABJRU5ErkJggg=="
+                      />
+                    </defs>
+                  </svg>
+                </div>
+                <span class="card__text--room-text">3 Rooms</span>
+              </div>
+              <div class="card__text--room-square">
+                <div class="card__svg-wrapper">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect width="24" height="24" fill="url(#pattern0_1_123)" />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_123"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_123"
+                          transform="translate(-0.0833333 -0.0833333) scale(0.0121528)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_123"
+                        width="96"
+                        height="96"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,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"
+                      />
+                    </defs>
+                  </svg>
+                </div>
+
+                <span class="card__text--room-text">1,500 sq ft</span>
+              </div>
+            </div>
+            <div class="card__text--cta">
+              <a class="card__text--cta-btn" href="#">Sign up</a>
+              <span class="card__text--cta-price">$850,000</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img
+              src="Immagini/Group 11 (2).png"
+              alt="Residence Palo Alto, California con piscina"
+            />
+          </div>
+          <div class="card__text">
+            <div class="card__text--address">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="24" height="24" fill="url(#pattern0_1_113)" />
+                <defs>
+                  <pattern
+                    id="pattern0_1_113"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1_113"
+                      transform="translate(-0.0833333 -0.0833333) scale(0.0121528)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1_113"
+                    width="96"
+                    height="96"
+                    preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,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"
+                  />
+                </defs>
+              </svg>
+              <p class="card__text--address-city">Palo Alto, California</p>
+            </div>
+            <div class="card__text--room">
+              <div class="card__text--room-square">
+                <div class="card__svg-wrapper">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect width="24" height="24" fill="url(#pattern0_1_118)" />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_118"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_118"
+                          transform="scale(0.0104167)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_118"
+                        width="96"
+                        height="96"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEAElEQVR4nO2cz2sUMRTHU4VWbyKoqIWCzuaNi6CyybbFQ09KpZ1kCg6CUhVB70JB1EIrvRSkoAcRqseC/gPqwYOgrRcRaQURf+K5osda2rKSbkWok93uurNJZt4H3qWUmffeN/uSmbwMIQiCIAiCIAiCIAiCIAiCIAiCIAiCIOlhoHvfzpD7/SHzL0lOr9hgyhflU3TY20HSSBSRzZLDeclhWnBYkRxKNppgsCw4vAi4f26EkE0kDQQFelRw+tZ0cmWtYnA6F3K/m7iM4HBGMlgwnUxZvwiLgsEF4iLqZ2w6gbJhQuQuEgfLzqLpxMnG2S9nypGacKvVfMHhk2QwKRiMW2L3BIfPFUVgMOvExLy22tEFMi8KcJIQ0kLso0UUIRKMftcOnGLuLLEdtdTUJb+v80COWE7IfaoTQTB4Tmx/yNKt89dGvhNIRk9pBFi2+mFNPU3qar6lZUdHi2TwRVOG+oitlF8vxE5gk8QxBIP7zi1JBYfheAHoGHEMyeiY5tc8TGxFchjVTMCjxDGki7E46XSaYnHS6TTF4qTTaYrFSafTFEu9TodF/7hkMFRt12qg4O+u5oP6n6q7bQyG1D2TiMUo9TgtGZ2q8O5o/XL2Rz+jXHetsJArCg4/a7jeVCNjMU6tTodq5G80WX9tWnd/welMrdcLCv6xRsRiBRWcfhpXCgSHR7UmrLzPEF9a6tmDKPsQdz3ls0MCBEfynuD0WR0juuSSqRjDgref2EJPT8cWyWBCMrpkOjmyWcbokuD0Zq/ntRlNftB5cJfk9LXxhHBjQrwy9no66spvl5y+N54EbtYEg3fyUMc2E+/Ln5gOXlpiaiJv6n6HZHSwolMMFlZXFwwmLNhwH/8fW42Bw2PVGVFFiNNNbDOk3yo48mAjT6yuIY7AHsHhob4U0a9N6ZrQbTuWjd4iKUcyelsXf8joiWY4cFdTdmbVr4OknKjc9zSnmQvuJO6ASnS8AHSQZIRA03YpGLxJ/Oa6npm+rtxekhEGil67pgzNJ35zXd9PFsrPuvMOcSVohSSNbgIiGUOaygMKUAYFMAwKYBgUwDAogGFQAMOgAIZBAQyDAhgGBTAMCmAYFMAwKIBhrBMgyudbSUbo9bw26wSQDK5lQYQon28VHK7bJwBaqSkCqNPimGzQtKbAcvICqC+d4GgvaRoTPiQugORwAwUAXXPWSOICRF3tWwWjL1EEWLchT2dUbhIX4I8I5dMw9GOW5wSxGrvKAR1pWvJTcZYqTTFa7VwWYrTauSzEaLVzWYgxYP7VOOfU30lKCGyOUR10ruUAtIsEtsf4z+cGKnwCwFWk7TGq0SAK9LI1oyIBshAjgiAIgiAIgiAIgiAIgpC08htnM50XC6u5IgAAAABJRU5ErkJggg=="
+                      />
+                    </defs>
+                  </svg>
+                </div>
+                <span class="card__text--room-text">6 Rooms</span>
+              </div>
+              <div class="card__text--room-square">
+                <div class="card__svg-wrapper">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <rect width="24" height="24" fill="url(#pattern0_1_123)" />
+                    <defs>
+                      <pattern
+                        id="pattern0_1_123"
+                        patternContentUnits="objectBoundingBox"
+                        width="1"
+                        height="1"
+                      >
+                        <use
+                          xlink:href="#image0_1_123"
+                          transform="translate(-0.0833333 -0.0833333) scale(0.0121528)"
+                        />
+                      </pattern>
+                      <image
+                        id="image0_1_123"
+                        width="96"
+                        height="96"
+                        preserveAspectRatio="none"
+                        xlink:href="data:image/png;base64,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"
+                      />
+                    </defs>
+                  </svg>
+                </div>
+
+                <span class="card__text--room-text">4,000 sq ft</span>
+              </div>
+            </div>
+            <div class="card__text--cta">
+              <a class="card__text--cta-btn" href="#">Sign up</a>
+              <span class="card__text--cta-price">$3,700,000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT PEOPLE SAY ABOUT DWELLO -->
+
+    <section class="background">
+      <div class="container padding u-margin-bottom-lg">
+        <h2 class="heading-secondary text-align">
+          What People Say<br />
+          About Dwello
+        </h2>
+
+        <div class="content-card-sm">
+          <div class="card-sm">
+            <div class="card-sm__img">
+              <img
+                src="Immagini/Group 15.svg"
+                alt="stanza con letto matrimoniale, lampada accesa e 2 sedie accanto finestra aperta con tende"
+              />
+            </div>
+            <div class="card-sm__text">
+              <div class="card-sm__text--profile">
+                <div class="card-sm__text--profile-container">
+                  <img
+                    src="Immagini/image (35) 1.svg"
+                    alt="foto profilo donna"
+                  />
+                  <div class="card-sm__text--profile-text">
+                    <span class="card-sm__text--profile-text-name"
+                      >Sarah Nguyen</span
+                    >
+                    <span class="card-sm__text--profile-text-city"
+                      >San Francisco</span
+                    >
+                  </div>
+                </div>
+
+                <img src="Immagini/Group 16.svg" alt="review 5 stelle" />
+              </div>
+              <p class="card-sm__text--profile-paragraph">
+                Dwello truly cares about their clients. They listened to my
+                needs and preferences and helped me find the perfect home in the
+                Bay Area. Their professionalism and attention to detail are
+                unmatched.
+              </p>
+            </div>
+          </div>
+          <div class="card-sm">
+            <div class="card-sm__img">
+              <img
+                src="Immagini/Group 15 (1).svg"
+                alt="stanza con letto matrimoniale, lampada accesa e 2 sedie accanto finestra aperta con tende"
+              />
+            </div>
+            <div class="card-sm__text">
+              <div class="card-sm__text--profile">
+                <div class="card-sm__text--profile-container">
+                  <img src="Immagini/Mask group.svg" alt="foto profilo uomo" />
+                  <div class="card-sm__text--profile-text">
+                    <span class="card-sm__text--profile-text-name"
+                      >Michael Rodriguez</span
+                    >
+                    <span class="card-sm__text--profile-text-city"
+                      >San Diego</span
+                    >
+                  </div>
+                </div>
+
+                <img src="Immagini/star 4.5.svg" alt="review 4.5 stelle" />
+              </div>
+              <p class="card-sm__text--profile-paragraph">
+                I had a fantastic experience working with Dwello. Their
+                expertise and personalized service exceeded my expectations. I
+                found my dream home quickly and smoothly. Highly recommended!
+              </p>
+            </div>
+          </div>
+          <div class="card-sm">
+            <div class="card-sm__img">
+              <img
+                src="Immagini/Group 15 (2).svg"
+                alt="stanza con letto matrimoniale, lampada accesa e 1 sedia accanto finestra aperta con tende"
+              />
+            </div>
+            <div class="card-sm__text">
+              <div class="card-sm__text--profile">
+                <div class="card-sm__text--profile-container">
+                  <img
+                    src="Immagini/Mask group (1).svg"
+                    alt="foto profilo donna"
+                  />
+                  <div class="card-sm__text--profile-text">
+                    <span class="card-sm__text--profile-text-name"
+                      >Emily Johnson</span
+                    >
+                    <span class="card-sm__text--profile-text-city"
+                      >Los Angeles</span
+                    >
+                  </div>
+                </div>
+
+                <img src="Immagini/Group 16.svg" alt="review 5 stelle" />
+              </div>
+              <p class="card-sm__text--profile-paragraph">
+                Dwello made my dream of owning a home a reality! Their team
+                provided exceptional support and guided me through every step of
+                the process. I couldn't be happier with my new home!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="arrows__btn">
+          <img
+            src="Immagini/Group 18.svg"
+            alt="freccia a sinistra per scorrere cards"
+          />
+          <img
+            src="Immagini/Group 19.svg"
+            alt="freccia a destra per scorrere cards"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- DO YOU HAVE ANY QUESTION -->
+    <section class="container u-margin-bottom-lg">
+      <h2 class="heading-secondary text-align">
+        Do You Have Any Questions?<br />
+        Get Help From Us
+      </h2>
+      <div class="question">
+        <div class="question__text">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="26" height="26" fill="url(#pattern0_1_231)" />
+            <defs>
+              <pattern
+                id="pattern0_1_231"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0_1_231" transform="scale(0.0104167)" />
+              </pattern>
+              <image
+                id="image0_1_231"
+                width="96"
+                height="96"
+                preserveAspectRatio="none"
+                xlink:href="data:image/png;base64,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"
+              />
+            </defs>
+          </svg>
+          <a href="#" class="question__text--paragraph">
+            Chat live with our support team
+          </a>
+        </div>
+        <div class="question__text">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect width="26" height="26" fill="url(#pattern0_1_231)" />
+            <defs>
+              <pattern
+                id="pattern0_1_231"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0_1_231" transform="scale(0.0104167)" />
+              </pattern>
+              <image
+                id="image0_1_231"
+                width="96"
+                height="96"
+                preserveAspectRatio="none"
+                xlink:href="data:image/png;base64,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"
+              />
+            </defs>
+          </svg>
+          <a href="#" class="question__text--paragraph">Browse our FAQ</a>
+        </div>
+      </div>
+      <form class="question__form" action="#" method="post">
+        <div class="question__form--email">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect
+              x="1"
+              y="1"
+              width="22"
+              height="22"
+              fill="url(#pattern0_1_234)"
+            />
+            <defs>
+              <pattern
+                id="pattern0_1_234"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use xlink:href="#image0_1_234" transform="scale(0.0104167)" />
+              </pattern>
+              <image
+                id="image0_1_234"
+                width="96"
+                height="96"
+                preserveAspectRatio="none"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADqUlEQVR4nO2cPWhUQRSFBwUFQbsUCmqjFomYnbshRbIzwS5FFLNzHxEES1tLS1tF/NfC1tJKsNBC+4iFQkivBO1NIhYmRGazqyGQn92Zt3fm7fngwhLY3XfPuTPnkUmeUgAAAAAAAAAAAAAAAAAAANtwk6MjztJTZ2nRGVplSxuDXM7QaluLJ0WjNlzawExPnzncFn5dumlOtFraGP3YaxVV/GJ4+BBb/U66Qc6knKG3XrNoBrClB9JNcXal70URf65x4Zwzek2+IcqqvGZNWzsbYfr1PelmONNyhu6GG2Dok3QjnGk5qz8GG9Bs1K+woSXpZji3MrTktVMxmKnXj7ChO8gC2sfU07oz9OLa+PgxFZtiarTml5X4dNlk60th6uOqTG4rdaCwdIOtXk6g4Y00Sv9yVt8qiuKg6hdXJ/QJNvqVfPMkLf6b5kV9WknRtPqSs/rbAAr/g23tukqBQQppV2bIhlL1kHaGPpcestvxe1wxWT812CGtuw7ZWVM/7gy9VKG0nV/t9gKqE9K6q5DtDKCz+qd/vwoldAnmGtLO0vduQ3Z2sjbKVs9v/RwVyk4hdHli4mgVQ9r1ELKd/tjoP9s/T4Wy24QUjRpXKaRdDyvcNWiGDX3d6TNVKHtfeG8h3dkjOfOQ3euzVShlNZBOSOtSB0iFUvYSbgqFdKyQTcqAHELaRQ7Z5AxIOaRdCSGbrAFphbQuLWQzMKD3kHYRBJAeABVKvCnsb0g7H7JT9aLskM3KgH6EtAsI2TJuAlQosS+ozJB2AiGbrQFx92gtFrIVMIC8gMuFpZvdCDhnxk6ypde+/Ov9vs9/h/+ufp1XqDwMoL6cOJURspUygHsM6ZR/HR588f2+YA4IaYmQrawB3GNI9ztkB8AA6uouJ7XzhooYQPsK6RRP3CplALf/88RZ/bBo1Ib+Cd+oDfmfpXjmXDkD+L8RvzdvKfX85mv5axooAziTggEWBohPIWMFyAvB2ILkxWCBQgZYGCA+hYwVIC8EYwuSF4MFChlgYYD4FDJWgLwQjC1IXgwWKGSAhQHiU8hYAfJCcK5bkDO0It0EZ1r+XDrcAEuL0o1wrmX0QoQVoB+JN2LzLGfofrABs1Nj51M87ObEq/XHA5OjI8EGtFfBc+mGOLPyz5JWsfCP4XVWf5BuivOp91EfXdwxga1+hu2Idpl6vdZ6inps8bfi97XWs6SNXsAtKvmtZsVr4TWJtucDAAAAAAAAAAAAAAAAAEBVib/Vtd+sMjHpDQAAAABJRU5ErkJggg=="
+              />
+            </defs>
+          </svg>
+          <input
+            class="question__form--email-input"
+            type="email"
+            placeholder="Enter your email address..."
+            required
+          />
+        </div>
+        <button class="question__form--btn">Submit</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer-container">
+      <div class="container footer">
+        <div class="footer__logo">
+          <a href="#"
+            ><img src="Immagini/logo.svg" alt="logo Dwello footer"
+          /></a>
+          <p class="footer__logo--paragraph">
+            Bringing you closer to<br />
+            your dream home, one<br />
+            click at a time.
+          </p>
+        </div>
+        <nav class="footer__navigation">
+          <div>
+            <h4 class="heading-quartary">About</h4>
+            <ul class="footer__navigation--link">
+              <li>
+                <a class="heading__navigation--list" href="#">Our Story</a>
+              </li>
+              <li><a class="heading__navigation--list" href="#">Careers</a></li>
+              <li>
+                <a class="heading__navigation--list" href="#">Our Team</a>
+              </li>
+              <li>
+                <a class="heading__navigation--list" href="#">Resources</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="heading-quartary">Support</h4>
+            <ul class="footer__navigation--link">
+              <li><a class="heading__navigation--list" href="#">FAQ</a></li>
+              <li>
+                <a class="heading__navigation--list" href="#">Contact Us</a>
+              </li>
+              <li>
+                <a class="heading__navigation--list" href="#">Help Center</a>
+              </li>
+              <li>
+                <a class="heading__navigation--list" href="#"
+                  >Terms of Service</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="heading-quartary">Find us</h4>
+            <ul class="footer__navigation--link">
+              <li><a class="heading__navigation--list" href="#">Events</a></li>
+              <li>
+                <a class="heading__navigation--list" href="#">Locations</a>
+              </li>
+              <li>
+                <a class="heading__navigation--list" href="#">News Letter</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="heading-quartary">Our Social</h4>
+            <ul class="footer__navigation--link">
+              <li class="footer__navigation--link-inline">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.6667 4C6.99067 4 4 6.99067 4 10.6667V21.3333C4 25.0093 6.99067 28 10.6667 28H21.3333C25.0093 28 28 25.0093 28 21.3333V10.6667C28 6.99067 25.0093 4 21.3333 4H10.6667ZM10.6667 6.66667H21.3333C23.5387 6.66667 25.3333 8.46133 25.3333 10.6667V21.3333C25.3333 23.5387 23.5387 25.3333 21.3333 25.3333H10.6667C8.46133 25.3333 6.66667 23.5387 6.66667 21.3333V10.6667C6.66667 8.46133 8.46133 6.66667 10.6667 6.66667ZM22.6667 8C21.9303 8 21.3333 8.59696 21.3333 9.33333C21.3333 10.0697 21.9303 10.6667 22.6667 10.6667C23.403 10.6667 24 10.0697 24 9.33333C24 8.59696 23.403 8 22.6667 8ZM16 9.33333C12.324 9.33333 9.33333 12.324 9.33333 16C9.33333 19.676 12.324 22.6667 16 22.6667C19.676 22.6667 22.6667 19.676 22.6667 16C22.6667 12.324 19.676 9.33333 16 9.33333ZM16 12C18.2053 12 20 13.7947 20 16C20 18.2053 18.2053 20 16 20C13.7947 20 12 18.2053 12 16C12 13.7947 13.7947 12 16 12Z"
+                    fill="#4F3527"
+                  />
+                </svg>
+                <a class="heading__navigation--list" href="#">Intagram</a>
+              </li>
+              <li class="footer__navigation--link-inline">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.66667 4C5.196 4 4 5.196 4 6.66667V25.3333C4 26.804 5.196 28 6.66667 28H15.4948H19.2188H25.3333C26.804 28 28 26.804 28 25.3333V6.66667C28 5.196 26.804 4 25.3333 4H6.66667ZM6.66667 7.26667C6.66667 6.9353 6.9353 6.66667 7.26667 6.66667H24.7334C25.0648 6.66667 25.3334 6.93525 25.3334 7.26658L25.3359 24.7333C25.3359 25.0647 25.0673 25.3333 24.7359 25.3333H19.8188C19.4874 25.3333 19.2188 25.0647 19.2188 24.7333V20.6469C19.2188 20.3155 19.4874 20.0469 19.8188 20.0469H21.8449C22.1465 20.0469 22.4013 19.8229 22.4399 19.5237L22.7538 17.0909C22.8001 16.732 22.5206 16.4141 22.1588 16.4141H19.8396C19.5082 16.4141 19.2396 16.1454 19.2396 15.8141V14.099C19.2396 13.0483 19.5324 12.3385 21.0391 12.3385H22.3427C22.6741 12.3385 22.9427 12.0699 22.9427 11.7385V9.63819C22.9427 9.33043 22.7099 9.07183 22.4032 9.04677C21.6551 8.98567 20.9049 8.95619 20.1536 8.95833C17.3883 8.95833 15.4948 10.6461 15.4948 13.7448V15.8193C15.4948 16.1506 15.2262 16.4193 14.8948 16.4193H12.9698C12.6384 16.4193 12.3698 16.6879 12.3698 17.0193V19.4521C12.3698 19.7835 12.6384 20.0521 12.9698 20.0521H14.8948C15.2262 20.0521 15.4948 20.3207 15.4948 20.6521V24.7333C15.4948 25.0647 15.2262 25.3333 14.8948 25.3333H7.26667C6.9353 25.3333 6.66667 25.0647 6.66667 24.7333V7.26667Z"
+                    fill="#4F3527"
+                  />
+                </svg>
+                <a class="heading__navigation--list" href="#">Facebook</a>
+              </li>
+              <li class="footer__navigation--link-inline">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.33333 4C5.95204 4 4 5.95204 4 8.33333V23.6667C4 26.0479 5.95204 28 8.33333 28H23.6667C26.0479 28 28 26.0479 28 23.6667V8.33333C28 5.95204 26.0479 4 23.6667 4H8.33333ZM8.33333 6H23.6667C24.9667 6 26 7.03329 26 8.33333V23.6667C26 24.9667 24.9667 26 23.6667 26H8.33333C7.03329 26 6 24.9667 6 23.6667V8.33333C6 7.03329 7.03329 6 8.33333 6ZM9.21875 9.33333L14.3763 16.7044L9.21484 22.6667H10.5768L14.9792 17.5677L18.5469 22.6667H22.8385L17.3503 14.8229L22.0911 9.33334H20.7578L16.7487 13.9622L13.5104 9.33334L9.21875 9.33333ZM11.2904 10.4635H12.9987L20.7669 21.5365H19.0586L11.2904 10.4635Z"
+                    fill="#4F3527"
+                  />
+                </svg>
+                <a class="heading__navigation--list" href="#">Twitter (x)</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
